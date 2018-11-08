@@ -26,8 +26,10 @@ defaults:
     path: ''
   values:
     layout: default
+description: Test of a Jekyll website with SiteLeaf
 gems:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-sitemap
 permalink: pretty
+url: https://example.com/
