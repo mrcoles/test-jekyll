@@ -1,21 +1,29 @@
+---
+title: Test Jekyll
+timezone: UTC
 collections:
   authors:
+    title: Authors
     output: true
-
-permalink: "pretty"
-
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+- scope:
+    path: ''
+    type: authors
+  values:
+    layout: author
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+  values:
+    layout: default
+permalink: pretty
