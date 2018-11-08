@@ -1,6 +1,12 @@
 ---
 title: Test Jekyll
 timezone: UTC
+
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 collections:
   authors:
     title: Authors
