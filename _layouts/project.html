@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+  <p>
+    {{ page.date | date_to_string }}
+  </p>
+  <br />
+  <br />
+</div>
+
+<section class="project">
+  <div class="container">{{ content }}</div>
+</section>
+
+{% for s in page.Sections %}
+<section class="project">
+  <div class="container">
+    <div style="width: {{ s.columns | times: 100 | divided_by: 12 }}%; margin: 0 auto;">
+      <img class="resp" src="{{ s.image }}" />
+    </div>
+  </div>
+</section>
+{% endfor %}

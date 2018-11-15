@@ -1,3 +1,30 @@
 .current {
   color: green;
 }
+
+img.resp {
+  max-width: 100%;
+}
+
+nav a {
+  display: inline-block;
+  padding: 3px 6px;
+  margin: 0 10px 0 0;
+  background: #6af;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #58d;
+}
+
+nav a.active {
+  background: #333;
+}
+
+section.project {
+  border-top: 1px solid #ddd;
+  padding: 40px 0;
+}

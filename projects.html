@@ -1,0 +1,14 @@
+---
+title: Projects
+---
+
+<h1>Projects</h1>
+
+<ul>
+  {% for p in site.projects %}
+    <li>
+      <h2><a href="{{ p.url }}">{{ p.title }}</a></h2>
+      <p>{{ p.date | date_to_string }}</p>
+    </li>
+  {% endfor %}
+</ul>
