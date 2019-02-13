@@ -41,3 +41,4 @@ gems:
 - jekyll-sitemap
 permalink: pretty
 url: https://example.com/
+cloudinary_url: https://res.cloudinary.com/mrcoles/image/upload

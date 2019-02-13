@@ -19,7 +19,7 @@ layout: default
 <section class="project">
   <div class="container">
     <div style="width: {{ s.columns | times: 100 | divided_by: 12 }}%; margin: 0 auto;">
-      <img class="resp" src="{{ s.image }}" />
+      <img class="resp" src="{{ site.cloudinary_url }}{{ s.image }}" />
     </div>
   </div>
 </section>
