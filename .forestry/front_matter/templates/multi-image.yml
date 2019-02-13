@@ -7,11 +7,15 @@ fields:
 - type: image_gallery
   name: images
   label: Image(s)
-  description: One or more images (all should be the same size)
-- type: file
-  name: video
-  label: Video
-  description: Video file (if specified, takes priority over images)
+  description: one or more images (all should be the same size)
+- type: text
+  name: video_mp4
+  label: Video MP4
+  description: full URL to hosted video file (if specified, takes priority over images)
+- type: text
+  name: video_webm
+  label: Video Webm
+  description: 'optional: only used if mp4 is specified'
 - type: number
   name: width
   label: Width
