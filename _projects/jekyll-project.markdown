@@ -9,6 +9,7 @@ images:
 - "/v1550092235/test-jekyll/bmo.gif"
 width: 500
 height: 500
+video_mp4: https://res.cloudinary.com/mrcoles/video/upload/v1550093503/test-jekyll/bmo-video.mp4
 
 ---
 This is a project that uses Jekyll.
