@@ -32,3 +32,14 @@ fields:
     min: '0'
     step: '1'
     required: true
+- type: boolean
+  label: Multi-Image Autoplay
+  name: multi_image_autoplay
+  description: If multiple images are set, then either auto-play or play on hover
+- type: number
+  name: multi_image_delay
+  label: Multi-Image Delay
+  description: Delay in milliseconds between multi-image frames (1000 = 1 second)
+  config:
+    min: '0'
+    step: '1'
