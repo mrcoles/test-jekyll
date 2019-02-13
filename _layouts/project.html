@@ -15,7 +15,7 @@ layout: default
   <div class="container">{{ content }}</div>
 </section>
 
-{% for s in page.Sections %}
+{% for s in page.sections %}
 <section class="project">
   <div class="container">
     <div style="width: {{ s.columns | times: 100 | divided_by: 12 }}%; margin: 0 auto;">
