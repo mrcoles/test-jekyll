@@ -5,10 +5,10 @@ sections:
 - image: "/v1550089169/test-jekyll/Screen%20Shot%202019-02-13%20at%2011.58.40%20AM.png"
   columns: 10
 images:
-- "/v1550090868/test-jekyll/emoti-crab1-purple.png"
-- "/v1550090777/test-jekyll/emoti-crab1.gif"
-width: 33
-height: 15
+- "/v1550092231/test-jekyll/bmo-purple.png"
+- "/v1550092235/test-jekyll/bmo.gif"
+width: 500
+height: 500
 
 ---
 This is a project that uses Jekyll.
