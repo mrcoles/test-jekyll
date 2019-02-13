@@ -1,9 +1,9 @@
 ---
 title: Jekyll Project
-date: 2018-11-08 21:18:00 Z
+date: 2018-11-08 21:18:00 +0000
 Sections:
-- image: "/uploads/Screen%20Shot%202018-11-09%20at%202.50.22%20PM.png"
+- image: "/v1550089169/test-jekyll/Screen%20Shot%202019-02-13%20at%2011.58.40%20AM.png"
   columns: 10
----
 
+---
 This is a project that uses Jekyll.
