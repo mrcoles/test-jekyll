@@ -1,0 +1,30 @@
+---
+label: multi-image
+hide_body: false
+is_partial: true
+display_field: images
+fields:
+- type: image_gallery
+  name: images
+  label: Image(s)
+  description: One or more images (all should be the same size)
+- type: file
+  name: video
+  label: Video
+  description: Video file (if specified, takes priority over images)
+- type: number
+  name: width
+  label: Width
+  description: width of image or video (px)
+  config:
+    min: '0'
+    step: '1'
+    required: true
+- type: number
+  name: height
+  label: Height
+  description: height of image or video (px)
+  config:
+    min: '0'
+    step: '1'
+    required: true
