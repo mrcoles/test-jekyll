@@ -9,4 +9,5 @@ fields:
   hidden: false
   default: ''
 pages:
+- "./home.md"
 - index.md
