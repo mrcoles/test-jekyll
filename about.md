@@ -1,8 +1,8 @@
 ---
-title: About
+title: A new page (duplicated)
 published: false
 
 ---
-# About page
+# Duplicata.
 
 This page tells you a little about me.
